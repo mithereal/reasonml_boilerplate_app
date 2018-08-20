@@ -66,7 +66,6 @@ let join = (channel) =>
     |> joinChannel
     |> putReceive("ok", handleReiceive("ok"))
     |> putReceive("error", handleReiceive("error"))
-    |> putReceive("quote", handleReiceive("error"))
 
 };
 
