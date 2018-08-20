@@ -1,0 +1,37 @@
+{
+    "name": "app",
+    "version": "0.0.1",
+    "reason": {"react-jsx" : 2},
+    "bsc-flags": [
+        "-bs-cross-module-opt"
+    ],
+    
+    "package-specs": [
+        "commonjs"
+    ],
+    
+    "sources": [
+        "src",
+        "app"
+        ]
+    ,
+    
+    "package-specs": [{
+    "module": "es6",
+      "in-source": true
+  }],
+ 
+  "bs-dependencies": [
+  "bucklescript-phx",
+      "reason-react",
+    "bs-css",
+    "bs-fetch",
+    "@glennsl/bs-json",
+  ],
+  
+  "suffix": ".bs.js",
+  "namespace": true,
+  "refmt": 3
+  
+    
+}
