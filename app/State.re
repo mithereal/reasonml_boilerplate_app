@@ -28,7 +28,7 @@ let handleReiceive = (event, any) =>
 
 let handleEvent = (event,  response) =>
  switch event {
-  | "testevent" => /* im trying to send this with send but not working*/
+  | "testevent" => /* im trying to send this with send but not working because i want the response value to update the state value:*/
   Js.log(("handleEvent:" ++ event, response))
   | _ => Js.log(("handleReiceive:" ++ event))
 };
