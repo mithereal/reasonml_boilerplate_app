@@ -28,7 +28,7 @@ let handleReiceive = (event, any) =>
 
 let handleEvent = (event,  response) =>
  switch event {
-  | "testevent" =>
+  | "testevent" => /* im trying to send this with send but not working*/
   Js.log(("handleEvent:" ++ event, response))
   | _ => Js.log(("handleReiceive:" ++ event))
 };
